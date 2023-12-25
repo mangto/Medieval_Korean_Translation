@@ -1,0 +1,138 @@
+body {
+    color: black;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+@font-face {
+    font-family: han;
+    src:url("/data/HANCOM GOTHIC REGULAR.TTF");
+}
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+    height: 5em;
+    gap: 0.5em;
+    margin-left: 0.5em;
+}
+
+.icon {
+    height: 90%;
+}
+
+.description {
+    color: rgb(78, 83, 89);
+}
+
+.content {
+    margin-top: 5em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.original {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+}
+
+.original textarea {
+    width: 100%;
+    height: 100%;
+    background-color: ghostwhite;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: top;
+    resize: none;
+    border-width: 0px;
+    font-family: han;
+    
+}
+
+.textbox {
+    background-color: ghostwhite;
+    margin: 10px;
+    padding: 20px;
+    width: 35vw;
+    height: 50vh;
+    border-radius: 15px;
+    filter: drop-shadow(5px 5px 10px #bfbfbf);
+
+}
+
+.arrow {
+    background-color: dodgerblue;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    font: 'Quicksand';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    filter: drop-shadow(5px 5px 10px #bfbfbf);
+}
+
+.arrow img {
+    width: 40%;
+    height: 40%;
+}
+
+.translate {
+    width: 100%;
+    height: 50px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    color: ghostwhite;
+    border-radius: 15px;
+    border-width: 0px;
+    filter: drop-shadow(5px 5px 10px #bfbfbf);
+}
+
+*::-webkit-scrollbar {
+    height: 4px;
+    width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #1E90FF;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #1B81E4;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #145FA8;
+    cursor: grab;
+  }
